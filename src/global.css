@@ -1,14 +1,17 @@
 :root {
-  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
-  color: #1f352b;
-  background: #f7f4eb;
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+  color: #efe8d6;
+  background: #091c20;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 280px; }
-button { font: inherit; cursor: pointer; }
-button:focus-visible { outline: 3px solid #a95439; outline-offset: 4px; }
-button:disabled { cursor: wait; }
-::selection { background: #e8cd90; color: #203429; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 2px solid #ebd39e; outline-offset: 5px; }
+button:disabled { cursor: default; }
+a { color: inherit; }
+::selection { background: #c5a568; color: #0a2223; }
