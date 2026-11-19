@@ -1,0 +1,17 @@
+:root {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+  color: #efe8d6;
+  background: #091c20;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 2px solid #ebd39e; outline-offset: 5px; }
+button:disabled { cursor: default; }
+a { color: inherit; }
+::selection { background: #c5a568; color: #0a2223; }
